@@ -192,3 +192,4 @@ Desenvolvido com ❤️ para a comunidade de traders e investidores.
 **Última atualização**: Novembro 2025
 
 # monitix-lp
+# monitix-lp
