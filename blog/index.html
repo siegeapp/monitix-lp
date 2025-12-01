@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Blog - Stock Crypto Alarm & Watch | Trading Tips & Guides</title>
+    <meta name="title" content="Blog - Stock Crypto Alarm & Watch | Trading Tips & Guides">
+    <meta name="description" content="Learn how to maximize your trading with price alerts, crypto tracking, and investment strategies. Expert guides in 12 languages.">
+    <meta name="keywords" content="stock trading blog, crypto trading tips, price alerts guide, day trading strategies, investment education">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://siegeapp.github.io/monitix-lp/blog/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://siegeapp.github.io/monitix-lp/blog/">
+    <meta property="og:title" content="Blog - Stock Crypto Alarm & Watch">
+    <meta property="og:description" content="Expert trading guides and tips for stocks and cryptocurrencies">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="blog.css">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P37F6ZDKNH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-P37F6ZDKNH');
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="blog-nav">
+        <div class="container">
+            <a href="../index.html" class="blog-logo">
+                📊 Stock Crypto Alarm & Watch
+            </a>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="#articles">Articles</a>
+                <div class="language-selector">
+                    <button class="language-btn" id="languageBtn">
+                        <span class="flag-icon" id="currentFlag">🇺🇸</span>
+                        <span id="currentLang">EN</span>
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="language-dropdown" id="languageDropdown">
+                        <button onclick="changeLanguage('en')" class="lang-option"><span class="flag-icon">🇺🇸</span> English</button>
+                        <button onclick="changeLanguage('pt')" class="lang-option"><span class="flag-icon">🇧🇷</span> Português</button>
+                        <button onclick="changeLanguage('es')" class="lang-option"><span class="flag-icon">🇪🇸</span> Español</button>
+                        <button onclick="changeLanguage('fr')" class="lang-option"><span class="flag-icon">🇫🇷</span> Français</button>
+                        <button onclick="changeLanguage('de')" class="lang-option"><span class="flag-icon">🇩🇪</span> Deutsch</button>
+                        <button onclick="changeLanguage('it')" class="lang-option"><span class="flag-icon">🇮🇹</span> Italiano</button>
+                        <button onclick="changeLanguage('zh')" class="lang-option"><span class="flag-icon">🇨🇳</span> 中文</button>
+                        <button onclick="changeLanguage('ja')" class="lang-option"><span class="flag-icon">🇯🇵</span> 日本語</button>
+                        <button onclick="changeLanguage('ru')" class="lang-option"><span class="flag-icon">🇷🇺</span> Русский</button>
+                        <button onclick="changeLanguage('ko')" class="lang-option"><span class="flag-icon">🇰🇷</span> 한국어</button>
+                        <button onclick="changeLanguage('ar')" class="lang-option"><span class="flag-icon">🇸🇦</span> العربية</button>
+                        <button onclick="changeLanguage('hi')" class="lang-option"><span class="flag-icon">🇮🇳</span> हिन्दी</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="blog-hero">
+        <div class="container">
+            <h1 data-i18n="blog_title">Trading Knowledge Hub</h1>
+            <p data-i18n="blog_subtitle">Expert guides on stock alerts, crypto tracking, and smart trading strategies</p>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="articles-section" id="articles">
+        <div class="container">
+            <h2 class="section-title" data-i18n="latest_articles">Latest Articles</h2>
+            
+            <div class="articles-grid">
+                <!-- Article 1: How to Set Price Alerts -->
+                <div class="article-card" onclick="navigateToArticle('how-to-set-price-alerts')">
+                    <div class="article-meta">
+                        <span class="article-tag" data-i18n="tag_tutorial">Tutorial</span>
+                        <span class="article-date">Dec 2024</span>
+                    </div>
+                    <h3 data-i18n="article1_title">How to Set Price Alerts for Stocks and Crypto</h3>
+                    <p class="article-excerpt" data-i18n="article1_excerpt">
+                        Learn the complete guide to setting up effective price alerts that help you never miss a trading opportunity. Step-by-step instructions for beginners and advanced tips for pros.
+                    </p>
+                    <a href="#" class="read-more" data-i18n="read_more">
+                        Read more →
+                    </a>
+                </div>
+
+                <!-- Article 2: Best Crypto Trackers -->
+                <div class="article-card" onclick="navigateToArticle('best-crypto-trackers-2025')">
+                    <div class="article-meta">
+                        <span class="article-tag" data-i18n="tag_review">Review</span>
+                        <span class="article-date">Dec 2024</span>
+                    </div>
+                    <h3 data-i18n="article2_title">Best Cryptocurrency Price Trackers in 2025</h3>
+                    <p class="article-excerpt" data-i18n="article2_excerpt">
+                        Comprehensive comparison of the top crypto price tracking tools. Find out which features matter most and why real-time alerts are essential for successful trading.
+                    </p>
+                    <a href="#" class="read-more" data-i18n="read_more">
+                        Read more →
+                    </a>
+                </div>
+
+                <!-- Article 3: Day Trading Tips -->
+                <div class="article-card" onclick="navigateToArticle('day-trading-tips')">
+                    <div class="article-meta">
+                        <span class="article-tag" data-i18n="tag_strategy">Strategy</span>
+                        <span class="article-date">Dec 2024</span>
+                    </div>
+                    <h3 data-i18n="article3_title">10 Essential Day Trading Tips for Beginners</h3>
+                    <p class="article-excerpt" data-i18n="article3_excerpt">
+                        Master the fundamentals of day trading with proven strategies. Learn risk management, timing, and how to use price alerts to maximize profits and minimize losses.
+                    </p>
+                    <a href="#" class="read-more" data-i18n="read_more">
+                        Read more →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="blog-footer">
+        <div class="container">
+            <p>&copy; 2025 Stock Crypto Alarm & Watch. All rights reserved. | <a href="../index.html">Back to Home</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Translations for blog index
+        const blogTranslations = {
+            en: {
+                blog_title: "Trading Knowledge Hub",
+                blog_subtitle: "Expert guides on stock alerts, crypto tracking, and smart trading strategies",
+                latest_articles: "Latest Articles",
+                tag_tutorial: "Tutorial",
+                tag_review: "Review",
+                tag_strategy: "Strategy",
+                read_more: "Read more →",
+                article1_title: "How to Set Price Alerts for Stocks and Crypto",
+                article1_excerpt: "Learn the complete guide to setting up effective price alerts that help you never miss a trading opportunity. Step-by-step instructions for beginners and advanced tips for pros.",
+                article2_title: "Best Cryptocurrency Price Trackers in 2025",
+                article2_excerpt: "Comprehensive comparison of the top crypto price tracking tools. Find out which features matter most and why real-time alerts are essential for successful trading.",
+                article3_title: "10 Essential Day Trading Tips for Beginners",
+                article3_excerpt: "Master the fundamentals of day trading with proven strategies. Learn risk management, timing, and how to use price alerts to maximize profits and minimize losses."
+            },
+            pt: {
+                blog_title: "Hub de Conhecimento de Trading",
+                blog_subtitle: "Guias especializados sobre alertas de ações, rastreamento de cripto e estratégias inteligentes de trading",
+                latest_articles: "Últimos Artigos",
+                tag_tutorial: "Tutorial",
+                tag_review: "Análise",
+                tag_strategy: "Estratégia",
+                read_more: "Leia mais →",
+                article1_title: "Como Configurar Alertas de Preço para Ações e Cripto",
+                article1_excerpt: "Aprenda o guia completo para configurar alertas de preço eficazes que ajudam você a nunca perder uma oportunidade de negociação. Instruções passo a passo para iniciantes e dicas avançadas para profissionais.",
+                article2_title: "Melhores Rastreadores de Criptomoedas em 2025",
+                article2_excerpt: "Comparação abrangente das melhores ferramentas de rastreamento de preços de cripto. Descubra quais recursos são mais importantes e por que alertas em tempo real são essenciais para negociações bem-sucedidas.",
+                article3_title: "10 Dicas Essenciais de Day Trading para Iniciantes",
+                article3_excerpt: "Domine os fundamentos do day trading com estratégias comprovadas. Aprenda gestão de risco, timing e como usar alertas de preço para maximizar lucros e minimizar perdas."
+            },
+            es: {
+                blog_title: "Centro de Conocimiento de Trading",
+                blog_subtitle: "Guías expertas sobre alertas de acciones, seguimiento de cripto y estrategias inteligentes de trading",
+                latest_articles: "Últimos Artículos",
+                tag_tutorial: "Tutorial",
+                tag_review: "Revisión",
+                tag_strategy: "Estrategia",
+                read_more: "Leer más →",
+                article1_title: "Cómo Configurar Alertas de Precio para Acciones y Cripto",
+                article1_excerpt: "Aprende la guía completa para configurar alertas de precio efectivas que te ayuden a nunca perder una oportunidad de trading. Instrucciones paso a paso para principiantes y consejos avanzados para profesionales.",
+                article2_title: "Mejores Rastreadores de Criptomonedas en 2025",
+                article2_excerpt: "Comparación completa de las mejores herramientas de seguimiento de precios de cripto. Descubre qué características importan más y por qué las alertas en tiempo real son esenciales para el trading exitoso.",
+                article3_title: "10 Consejos Esenciales de Day Trading para Principiantes",
+                article3_excerpt: "Domina los fundamentos del day trading con estrategias probadas. Aprende gestión de riesgos, timing y cómo usar alertas de precio para maximizar ganancias y minimizar pérdidas."
+            },
+            fr: {
+                blog_title: "Centre de Connaissances Trading",
+                blog_subtitle: "Guides experts sur les alertes d'actions, le suivi crypto et les stratégies de trading intelligentes",
+                latest_articles: "Derniers Articles",
+                tag_tutorial: "Tutoriel",
+                tag_review: "Revue",
+                tag_strategy: "Stratégie",
+                read_more: "Lire la suite →",
+                article1_title: "Comment Configurer des Alertes de Prix pour Actions et Crypto",
+                article1_excerpt: "Apprenez le guide complet pour configurer des alertes de prix efficaces qui vous aident à ne jamais manquer une opportunité de trading. Instructions étape par étape pour débutants et conseils avancés pour professionnels.",
+                article2_title: "Meilleurs Trackers de Cryptomonnaies en 2025",
+                article2_excerpt: "Comparaison complète des meilleurs outils de suivi des prix crypto. Découvrez quelles fonctionnalités comptent le plus et pourquoi les alertes en temps réel sont essentielles pour un trading réussi.",
+                article3_title: "10 Conseils Essentiels de Day Trading pour Débutants",
+                article3_excerpt: "Maîtrisez les fondamentaux du day trading avec des stratégies éprouvées. Apprenez la gestion des risques, le timing et comment utiliser les alertes de prix pour maximiser les profits et minimiser les pertes."
+            },
+            de: {
+                blog_title: "Trading-Wissenszentrum",
+                blog_subtitle: "Experten-Leitfäden zu Aktienalarmen, Krypto-Tracking und intelligenten Trading-Strategien",
+                latest_articles: "Neueste Artikel",
+                tag_tutorial: "Tutorial",
+                tag_review: "Bewertung",
+                tag_strategy: "Strategie",
+                read_more: "Mehr lesen →",
+                article1_title: "So richten Sie Preisalarme für Aktien und Krypto ein",
+                article1_excerpt: "Lernen Sie den vollständigen Leitfaden zum Einrichten effektiver Preisalarme, die Ihnen helfen, keine Trading-Gelegenheit zu verpassen. Schritt-für-Schritt-Anleitungen für Anfänger und erweiterte Tipps für Profis.",
+                article2_title: "Beste Kryptowährungs-Preis-Tracker in 2025",
+                article2_excerpt: "Umfassender Vergleich der besten Krypto-Preis-Tracking-Tools. Finden Sie heraus, welche Funktionen am wichtigsten sind und warum Echtzeit-Alarme für erfolgreiches Trading unerlässlich sind.",
+                article3_title: "10 Wesentliche Day-Trading-Tipps für Anfänger",
+                article3_excerpt: "Meistern Sie die Grundlagen des Day-Tradings mit bewährten Strategien. Lernen Sie Risikomanagement, Timing und wie Sie Preisalarme verwenden, um Gewinne zu maximieren und Verluste zu minimieren."
+            },
+            it: {
+                blog_title: "Centro Conoscenze Trading",
+                blog_subtitle: "Guide esperte su avvisi di azioni, monitoraggio cripto e strategie di trading intelligenti",
+                latest_articles: "Ultimi Articoli",
+                tag_tutorial: "Tutorial",
+                tag_review: "Recensione",
+                tag_strategy: "Strategia",
+                read_more: "Leggi di più →",
+                article1_title: "Come Impostare Avvisi di Prezzo per Azioni e Cripto",
+                article1_excerpt: "Impara la guida completa per impostare avvisi di prezzo efficaci che ti aiutano a non perdere mai un'opportunità di trading. Istruzioni passo-passo per principianti e suggerimenti avanzati per professionisti.",
+                article2_title: "Migliori Tracker di Criptovalute nel 2025",
+                article2_excerpt: "Confronto completo dei migliori strumenti di monitoraggio dei prezzi cripto. Scopri quali funzionalità contano di più e perché gli avvisi in tempo reale sono essenziali per un trading di successo.",
+                article3_title: "10 Consigli Essenziali di Day Trading per Principianti",
+                article3_excerpt: "Padroneggia i fondamenti del day trading con strategie comprovate. Impara la gestione del rischio, il timing e come usare gli avvisi di prezzo per massimizzare i profitti e minimizzare le perdite."
+            },
+            zh: {
+                blog_title: "交易知识中心",
+                blog_subtitle: "关于股票警报、加密跟踪和智能交易策略的专家指南",
+                latest_articles: "最新文章",
+                tag_tutorial: "教程",
+                tag_review: "评论",
+                tag_strategy: "策略",
+                read_more: "阅读更多 →",
+                article1_title: "如何为股票和加密货币设置价格警报",
+                article1_excerpt: "学习设置有效价格警报的完整指南，帮助您永不错过交易机会。为初学者提供分步说明，为专业人士提供高级技巧。",
+                article2_title: "2025年最佳加密货币价格跟踪器",
+                article2_excerpt: "顶级加密价格跟踪工具的全面比较。了解哪些功能最重要，以及为什么实时警报对成功交易至关重要。",
+                article3_title: "初学者必备的10个日内交易技巧",
+                article3_excerpt: "通过经过验证的策略掌握日内交易的基础知识。学习风险管理、时机把握以及如何使用价格警报来最大化利润和最小化损失。"
+            },
+            ja: {
+                blog_title: "トレーディング知識ハブ",
+                blog_subtitle: "株式アラート、暗号追跡、スマートトレーディング戦略に関する専門ガイド",
+                latest_articles: "最新記事",
+                tag_tutorial: "チュートリアル",
+                tag_review: "レビュー",
+                tag_strategy: "戦略",
+                read_more: "続きを読む →",
+                article1_title: "株式と暗号通貨の価格アラートを設定する方法",
+                article1_excerpt: "取引機会を逃さないための効果的な価格アラートの設定方法を完全ガイドで学びます。初心者向けのステップバイステップの説明と、プロ向けの高度なヒント。",
+                article2_title: "2025年のベスト暗号通貨価格トラッカー",
+                article2_excerpt: "トップ暗号価格追跡ツールの包括的な比較。どの機能が最も重要で、リアルタイムアラートが成功した取引に不可欠な理由を見つけてください。",
+                article3_title: "初心者のための10の必須デイトレーディングヒント",
+                article3_excerpt: "実証済みの戦略でデイトレーディングの基礎をマスターします。リスク管理、タイミング、価格アラートを使用して利益を最大化し損失を最小化する方法を学びます。"
+            },
+            ru: {
+                blog_title: "Центр Знаний о Трейдинге",
+                blog_subtitle: "Экспертные руководства по оповещениям о акциях, отслеживанию криптовалют и умным торговым стратегиям",
+                latest_articles: "Последние Статьи",
+                tag_tutorial: "Руководство",
+                tag_review: "Обзор",
+                tag_strategy: "Стратегия",
+                read_more: "Читать далее →",
+                article1_title: "Как Настроить Ценовые Оповещения для Акций и Криптовалют",
+                article1_excerpt: "Изучите полное руководство по настройке эффективных ценовых оповещений, которые помогут вам никогда не упустить торговую возможность. Пошаговые инструкции для начинающих и расширенные советы для профессионалов.",
+                article2_title: "Лучшие Трекеры Цен Криптовалют в 2025",
+                article2_excerpt: "Всестороннее сравнение лучших инструментов отслеживания цен криптовалют. Узнайте, какие функции наиболее важны и почему оповещения в реальном времени необходимы для успешной торговли.",
+                article3_title: "10 Основных Советов по Дейтрейдингу для Начинающих",
+                article3_excerpt: "Освойте основы дейтрейдинга с проверенными стратегиями. Изучите управление рисками, выбор времени и использование ценовых оповещений для максимизации прибыли и минимизации убытков."
+            },
+            ko: {
+                blog_title: "트레이딩 지식 허브",
+                blog_subtitle: "주식 알림, 암호화폐 추적 및 스마트 트레이딩 전략에 대한 전문가 가이드",
+                latest_articles: "최신 기사",
+                tag_tutorial: "튜토리얼",
+                tag_review: "리뷰",
+                tag_strategy: "전략",
+                read_more: "더 읽기 →",
+                article1_title: "주식과 암호화폐를 위한 가격 알림 설정 방법",
+                article1_excerpt: "거래 기회를 절대 놓치지 않도록 도와주는 효과적인 가격 알림 설정에 대한 완벽한 가이드를 배웁니다. 초보자를 위한 단계별 지침과 전문가를 위한 고급 팁.",
+                article2_title: "2025년 최고의 암호화폐 가격 트래커",
+                article2_excerpt: "최고의 암호화폐 가격 추적 도구에 대한 포괄적인 비교. 어떤 기능이 가장 중요한지, 실시간 알림이 성공적인 거래에 필수적인 이유를 알아보세요.",
+                article3_title: "초보자를 위한 10가지 필수 데이 트레이딩 팁",
+                article3_excerpt: "검증된 전략으로 데이 트레이딩의 기본을 마스터하세요. 위험 관리, 타이밍, 가격 알림을 사용하여 이익을 극대화하고 손실을 최소화하는 방법을 배웁니다."
+            },
+            ar: {
+                blog_title: "مركز المعرفة التجارية",
+                blog_subtitle: "أدلة خبراء حول تنبيهات الأسهم وتتبع العملات المشفرة واستراتيجيات التداول الذكية",
+                latest_articles: "أحدث المقالات",
+                tag_tutorial: "دليل",
+                tag_review: "مراجعة",
+                tag_strategy: "استراتيجية",
+                read_more: "اقرأ المزيد →",
+                article1_title: "كيفية تعيين تنبيهات الأسعار للأسهم والعملات المشفرة",
+                article1_excerpt: "تعلم الدليل الكامل لإعداد تنبيهات الأسعار الفعالة التي تساعدك على عدم تفويت فرصة تداول أبدًا. تعليمات خطوة بخطوة للمبتدئين ونصائح متقدمة للمحترفين.",
+                article2_title: "أفضل متتبعات أسعار العملات المشفرة في 2025",
+                article2_excerpt: "مقارنة شاملة لأفضل أدوات تتبع أسعار العملات المشفرة. اكتشف الميزات الأكثر أهمية ولماذا تعتبر التنبيهات في الوقت الفعلي ضرورية للتداول الناجح.",
+                article3_title: "10 نصائح أساسية للتداول اليومي للمبتدئين",
+                article3_excerpt: "أتقن أساسيات التداول اليومي باستراتيجيات مثبتة. تعلم إدارة المخاطر والتوقيت وكيفية استخدام تنبيهات الأسعار لتعظيم الأرباح وتقليل الخسائر."
+            },
+            hi: {
+                blog_title: "ट्रेडिंग ज्ञान केंद्र",
+                blog_subtitle: "स्टॉक अलर्ट, क्रिप्टो ट्रैकिंग और स्मार्ट ट्रेडिंग रणनीतियों पर विशेषज्ञ मार्गदर्शिकाएँ",
+                latest_articles: "नवीनतम लेख",
+                tag_tutorial: "ट्यूटोरियल",
+                tag_review: "समीक्षा",
+                tag_strategy: "रणनीति",
+                read_more: "और पढ़ें →",
+                article1_title: "स्टॉक और क्रिप्टो के लिए मूल्य अलर्ट कैसे सेट करें",
+                article1_excerpt: "प्रभावी मूल्य अलर्ट सेट करने के लिए पूर्ण गाइड सीखें जो आपको कभी भी ट्रेडिंग के अवसर से चूकने में मदद नहीं करता है। शुरुआती लोगों के लिए चरण-दर-चरण निर्देश और पेशेवरों के लिए उन्नत टिप्स।",
+                article2_title: "2025 में सर्वश्रेष्ठ क्रिप्टोकरेंसी मूल्य ट्रैकर",
+                article2_excerpt: "शीर्ष क्रिप्टो मूल्य ट्रैकिंग उपकरणों की व्यापक तुलना। पता करें कि कौन सी सुविधाएं सबसे अधिक मायने रखती हैं और सफल ट्रेडिंग के लिए रियल-टाइम अलर्ट क्यों आवश्यक हैं।",
+                article3_title: "शुरुआती लोगों के लिए 10 आवश्यक डे ट्रेडिंग टिप्स",
+                article3_excerpt: "सिद्ध रणनीतियों के साथ डे ट्रेडिंग की मूल बातें में महारत हासिल करें। जोखिम प्रबंधन, समय और मूल्य अलर्ट का उपयोग करके लाभ को अधिकतम करने और नुकसान को कम करने का तरीका सीखें।"
+            }
+        };
+
+        // Language functionality
+        let currentLanguage = 'en';
+
+        function changeLanguage(lang) {
+            currentLanguage = lang;
+            updateContent();
+            updateLanguageButton(lang);
+            document.getElementById('languageDropdown').classList.remove('active');
+            localStorage.setItem('preferredLanguage', lang);
+        }
+
+        function updateContent() {
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (blogTranslations[currentLanguage] && blogTranslations[currentLanguage][key]) {
+                    element.textContent = blogTranslations[currentLanguage][key];
+                }
+            });
+        }
+
+        function updateLanguageButton(lang) {
+            const flags = {
+                'en': '🇺🇸', 'pt': '🇧🇷', 'es': '🇪🇸', 'fr': '🇫🇷',
+                'de': '🇩🇪', 'it': '🇮🇹', 'zh': '🇨🇳', 'ja': '🇯🇵',
+                'ru': '🇷🇺', 'ko': '🇰🇷', 'ar': '🇸🇦', 'hi': '🇮🇳'
+            };
+            const names = {
+                'en': 'EN', 'pt': 'PT', 'es': 'ES', 'fr': 'FR',
+                'de': 'DE', 'it': 'IT', 'zh': 'ZH', 'ja': 'JA',
+                'ru': 'RU', 'ko': 'KO', 'ar': 'AR', 'hi': 'HI'
+            };
+            
+            document.getElementById('currentFlag').textContent = flags[lang];
+            document.getElementById('currentLang').textContent = names[lang];
+        }
+
+        function navigateToArticle(slug) {
+            window.location.href = `articles/${slug}/${currentLanguage}.html`;
+        }
+
+        // Toggle language dropdown
+        document.getElementById('languageBtn').addEventListener('click', function(e) {
+            e.stopPropagation();
+            document.getElementById('languageDropdown').classList.toggle('active');
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function() {
+            document.getElementById('languageDropdown').classList.remove('active');
+        });
+
+        // Initialize
+        window.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+            changeLanguage(savedLang);
+        });
+    </script>
+</body>
+</html>
+
