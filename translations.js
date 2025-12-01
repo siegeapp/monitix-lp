@@ -86,6 +86,7 @@ const translations = {
         footer_languages: "Languages",
         footer_rights: "All rights reserved.",
         nav_features: "Features",
+        nav_blog: "Blog",
         nav_pricing: "Pricing",
         nav_support: "Support",
         nav_privacy: "Privacy Policy"
@@ -178,6 +179,7 @@ const translations = {
         footer_languages: "Idiomas",
         footer_rights: "Todos os direitos reservados.",
         nav_features: "Recursos",
+        nav_blog: "Blog",
         nav_pricing: "Preços",
         nav_support: "Suporte",
         nav_privacy: "Política de Privacidade"
