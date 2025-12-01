@@ -1,0 +1,46 @@
+{
+  "name": "stock-crypto-alarm-landing",
+  "version": "1.0.0",
+  "description": "SEO-optimized multilingual landing page for Stock Crypto Alarm & Watch browser extension",
+  "keywords": [
+    "stock alerts",
+    "crypto alerts",
+    "price tracker",
+    "cryptocurrency",
+    "stock market",
+    "trading",
+    "browser extension",
+    "real-time prices",
+    "investment tracker",
+    "day trading",
+    "swing trading",
+    "portfolio tracker",
+    "market monitor"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://yourusername.github.io/LPmonitix/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/LPmonitix.git"
+  },
+  "languages": [
+    "en",
+    "pt-BR",
+    "es",
+    "fr",
+    "de",
+    "it",
+    "zh-CN",
+    "ja",
+    "ru",
+    "ko",
+    "ar",
+    "hi"
+  ],
+  "seo": {
+    "sitemap": "https://yourusername.github.io/LPmonitix/sitemap.xml",
+    "robots": "https://yourusername.github.io/LPmonitix/robots.txt"
+  }
+}
+

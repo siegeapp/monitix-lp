@@ -1,0 +1,24 @@
+# CNAME Configuration for Custom Domain
+# 
+# If you want to use a custom domain (e.g., stockcryptoalarm.com)
+# instead of yourusername.github.io/LPmonitix/:
+#
+# 1. Uncomment the line below and replace with your domain
+# 2. Configure your DNS provider to point to GitHub Pages:
+#    - Add an A record pointing to: 185.199.108.153
+#    - Add an A record pointing to: 185.199.109.153
+#    - Add an A record pointing to: 185.199.110.153
+#    - Add an A record pointing to: 185.199.111.153
+#    OR
+#    - Add a CNAME record pointing to: yourusername.github.io
+#
+# 3. In your GitHub repository:
+#    - Go to Settings → Pages
+#    - Enter your custom domain
+#    - Enable "Enforce HTTPS" (after DNS propagates)
+#
+# Example:
+# stockcryptoalarm.com
+#
+# Then rename this file to just "CNAME" (without .example extension)
+
