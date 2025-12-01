@@ -47,12 +47,102 @@
         <priority>0.8</priority>
     </url>
     
-    <!-- Article 3: Day Trading Tips - English -->
+    <!-- Article 3: Day Trading Tips - All 12 Languages -->
     <url>
-        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/en.html</loc>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=en</loc>
         <lastmod>2024-12-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=pt"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=es"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=fr"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=de"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=it"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=zh"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=ja"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=ru"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=ko"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=ar"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=hi"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html"/>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=pt</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=es</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=fr</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=de</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=it</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=zh</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=ja</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=ru</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=ko</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=ar</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://siegeapp.github.io/monitix-lp/blog/articles/day-trading-tips/index.html?lang=hi</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
     
     <!-- Portuguese -->
